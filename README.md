@@ -100,4 +100,9 @@ When the user is in application they should be able to see all upcoming events i
 
 * Given the user is looking at all events (i.e. no city has been selected)  
 * When the application is in the chart view
-* Then the user should see an aggregation of the number of events in each city 
+* Then the user should see an aggregation of the number of events in each city
+
+
+# Architecture 
+
+Meet app uses AWS Lambda to handle authentication via Oauth2, API methods to get information from the Google Calendar API and post information to the user's calendar.  
